@@ -1,0 +1,4 @@
+Config-Version: 1
+Help-Not-Found: "&cthe page %page% not found."
+Not-Permission: "&cthe page %page% need permission."
+reload-complete: "&3Reload Complete."

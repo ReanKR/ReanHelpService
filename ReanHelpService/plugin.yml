@@ -1,0 +1,17 @@
+﻿name: ReanHelpService
+version: 1.4.7
+main: org.whitehack97.ReanHelpService.ReanHelpService
+author: Rean KR
+description: Rean Server Help Service
+
+commands:
+  ?:
+    description: Help Command
+  help:
+    description: Help Command
+    aliases: [rhelp, reanhelp]
+
+permissions:
+  reanhelpservice.use:
+    description: No description.
+    default: true

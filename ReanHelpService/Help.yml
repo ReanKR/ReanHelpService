@@ -1,0 +1,27 @@
+# How to help command : /help <Methods> [Children]
+Main: # /help or /?
+  Need-Permission: true
+  # In other words, The player need permission, 'ExtendedCustomHelp.use'
+  Text:
+    - 'Hello world!'
+    - 'Need Help? Use command /help'
+Children:
+  Survival: # /help Survival
+    Need-Permission: true
+    # In other words, The player need permission, 'ExtendedCustomHelp.Survival'
+    Text:
+    - 'Survival Page'
+    - '&aColor format supported'
+    Children:
+      info: # /help Survival info
+      - 'Detailed Creative Help Page'
+      - 'Thanks for use my plugin!'
+  Creative:
+    Need-Permission: true
+    Text: # /help Creative
+    - 'Creative Main Page'
+    - 'Thank you!'
+    Children:
+      more: # /help Creative more
+      - 'Detailed Creative Help Page'
+      - 'Thanks for use my plugin!'
